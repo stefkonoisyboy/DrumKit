@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="script.js" defer></script>
+        <link rel="stylesheet" href="style.css">
+        <title>Drum Kit</title>
+    </head>
+    <body class="bg">
+        <div class="row text-center">
+            <div class="col-md-1">
+
+            </div>
+            <div class="col-md-1">
+                <button id="65" class="bg-dark keypad">
+                    <div class="square">
+                        <p class="key">A</p>
+                        <p class="sound">CLAP</p>
+                    </div>
+                </button>
+            </div>
+            <div class="col-md-1">
+                <button id="83" class="bg-dark keypad">
+                    <div class="square">
+                        <p class="key">S</p>
+                        <p class="sound">HIHAT</p>
+                    </div>
+                </button>
+            </div>
+            <div class="col-md-1">
+                <button id="68" class="bg-dark keypad">
+                    <div class="square">
+                        <p class="key">D</p>
+                        <p class="sound">KICK</p>
+                    </div>
+                </button>
+            </div>
+            <div class="col-md-1">
+                <button id="70" class="bg-dark keypad">
+                    <div class="square">
+                        <p class="key">F</p>
+                        <p class="sound">OPENHAT</p>
+                    </div>
+                </button>
+            </div>
+            <div class="col-md-1">
+                <button id="71" class="bg-dark keypad">
+                    <div class="square">
+                        <p class="key">G</p>
+                        <p class="sound">BOOM</p>
+                    </div>
+                </button>
+            </div>
+            <div class="col-md-1">
+                <button id="72" class="bg-dark keypad">
+                    <div class="square">
+                        <p class="key">H</p>
+                        <p class="sound">RIDE</p>
+                    </div>
+                </button>
+            </div>
+            <div class="col-md-1">
+                <button id="74" class="bg-dark keypad">
+                    <div class="square">
+                        <p class="key">J</p>
+                        <p class="sound">SNARE</p>
+                    </div>
+                </button>
+            </div>
+            <div class="col-md-1">
+                <button id="75" class="bg-dark keypad">
+                    <div class="square">
+                        <p class="key">K</p>
+                        <p class="sound">TOM</p>
+                    </div>
+                </button>
+            </div>
+            <div class="col-md-1">
+                <button id="76" class="bg-dark keypad">
+                   <div class="square">
+                        <p class="key">L</p>
+                        <p class="sound">TINK</p>
+                   </div>
+                </button>
+            </div>
+            <div class="col-md-1">
+
+            </div>
+        </div>
+
+        <audio data-key="65" src="sounds/clap.wav"></audio>
+        <audio data-key="83" src="sounds/hihat.wav"></audio>
+        <audio data-key="68" src="sounds/kick.wav"></audio>
+        <audio data-key="70" src="sounds/openhat.wav"></audio>
+        <audio data-key="71" src="sounds/boom.wav"></audio>
+        <audio data-key="72" src="sounds/ride.wav"></audio>
+        <audio data-key="74" src="sounds/snare.wav"></audio>
+        <audio data-key="75" src="sounds/tom.wav"></audio>
+        <audio data-key="76" src="sounds/tink.wav"></audio>
+
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    </body>
+</html>

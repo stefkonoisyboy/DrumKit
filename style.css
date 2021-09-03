@@ -1,0 +1,45 @@
+body, html {
+    height: 100%;
+}
+
+.bg {
+    background-image: url("https://negativespace.co/wp-content/uploads/2017/05/negative-space-crowd-rock-concert-nainoa-shizuru-thumb-1.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.keypad {
+    border: 2px solid black;
+    transition: all .07s ease;
+}
+
+.key {
+    color: white;
+    font-size: 25px;
+}
+
+.sound {
+    color: yellow;
+    font-size: 10px;
+}
+
+.square {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.text-center {
+    padding: 350px 0;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #ffc600;
+    box-shadow: 0 0 1rem #ffc600;
+}
